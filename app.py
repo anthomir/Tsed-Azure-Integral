@@ -2,7 +2,7 @@ from flask import Flask, jsonify
 import math
 
 app = Flask(__name__)
-port = 5000
+port = 80
 
 @app.route('/numericalintegralservice/<string:lower>/<string:upper>')
 def numerical_integral_service(lower, upper):
