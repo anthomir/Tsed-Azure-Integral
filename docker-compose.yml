@@ -10,5 +10,5 @@ services:
         - no_proxy
     image: tsed-azure-integral/server:latest
     ports:
-      - "8081:8081"
+      - "5000:5000"
 
